@@ -1,19 +1,27 @@
 [born2beroot]
 
+https://velog.io/@coh/Born2BeRoot
 Virtual Box에 OS를 설치하고 ssh, fire wall cron등 여러 설정들을 했습니다.
 시스템 로그를 출력하는 스크립트를 작성하고 cron 을 사용하여 주기적으로 화면에 표시하였습니다.
 
 [get_next_line]
 
-파일 시스템 처리를 학습하기 위해서 File Descriptor와 read 함수를 활용했습니다. 개행을 기준으로 파일 내 데이터를 읽는 것이기 때문에 매 줄을 읽을 때 마다 메모리 관리에 각별하게 신경을 써야 했습니다.
+https://velog.io/@coh/GNL
+파일을 한 줄씩 읽어오는 프로그램을 만들었습니다. read를 통해 주어진 파일을 개행이 나올 때까지 읽었습니다. 메모리 누수를 신경쓰고 문자열 함수들을 적절히 커스텀해서 구현했습니다.
+
+[ft_printf]
+
+https://velog.io/@coh/printf
+stdio 라이브러리의 printf 함수를 가변인자를 사용해 구현했습니다.
 
 [philo]
 
-운영체제의 교착 상태를 해결하기 위해 semaphore 혹은 mutex를 사용합니다. c언어에서 라이브러리로 제공되는 mutex를 활용해 식사하는 철학자 문제(Dead Lock)을 해결했습니다. 
+운영체제의 동기화를 위해 mutex를 사용했습니다. c언어에서 라이브러리로 제공되는 mutex를 활용해 식사하는 철학자 문제(Dead Lock)을 해결했습니다. 
 
 [push_swap]
 
-두 스택에 들어있는 원소들을 최대의 효율성으로 정렬한다는 목표를 달성해야 했습니다. 이를 위해 스택을 C언어로 직접 구현하였고, 이후에는 그리디 알고리즘을 구현해 문제를 해결하였습니다.
+https://velog.io/@coh/push-swap
+두 deque에 들어있는 원소들을 최대의 효율성으로 정렬한다는 목표를 달성해야 했습니다. 이를 위해 deque을 C언어로 직접 구현하였고, 이후에는 그리디 알고리즘을 구현해 문제를 해결하였습니다.
 
 [so_long]
 
@@ -21,11 +29,11 @@ minilibx 라이브러리를 사용해 방향키를 사용해 할 수 있는 간�
 
 [minitalk]
 
+https://velog.io/@coh/minitalk-swfna6hv
 두 서버간의 통신을 c언어로 구현하는 목표를 달성하기 위해 signal 라이브러리를 사용했습니다. 해당 라이브러리를 사용하기 위해서 signal, interrupt 등의 개념을 학습했습니다.
 
 [minishell]
 
-리눅스 쉘을 구현하는 과제였습니다. 명령어를 파싱하기 위해 다양한 문자열 처리 함수를 만들어서 사용했습니다.
+리눅스 쉘을 구현하는 과제였습니다. 명령어를 파싱하는 부분을 맡
 
-[ft_printf]
-stdio 라이브러리의 printf 함수를 C언어를 사용해 직접 구현하기 위해 가변 인자를 학습했습니다.
+
