@@ -36,4 +36,7 @@ https://velog.io/@coh/minitalk-swfna6hv
 
 리눅스 쉘을 구현하는 과제였습니다. 명령어를 파싱하는 부분을 맡았습니다.
 
+[NetPractice]
 
+https://cheol5.tistory.com/65
+네트워크에 대한 기본 개념을 배울 수 있었습니다. 특히, subnetting에 대한 개념을 학습했습니다.
