@@ -34,6 +34,6 @@ https://velog.io/@coh/minitalk-swfna6hv
 
 [minishell]
 
-리눅스 쉘을 구현하는 과제였습니다. 명령어를 파싱하는 부분을 맡
+리눅스 쉘을 구현하는 과제였습니다. 명령어를 파싱하는 부분을 맡았습니다.
 
 
